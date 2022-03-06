@@ -20,17 +20,6 @@
 
 DHT dht(DHTPIN, DHTTYPE); //PASSA OS PARÂMETROS PARA A FUNÇÃO
 
-enum
-{
-    DIRECTION_N   = 0,
-    DIRECTION_NE  = 45,
-    DIRECTION_E   = 90,
-    DIRECTION_SE  = 135,
-    DIRECTION_S   = 180,
-    DIRECTION_SO  = 225,
-    DIRECTION_O   = 270,
-    DIRECTION_NO  = 315
-};
 
 struct anem_wind_props_t
 {
